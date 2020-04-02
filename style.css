@@ -1,0 +1,54 @@
+body    {
+    box-sizing: border-box;
+
+}
+.Header     {
+    margin-bottom: 50px;
+    background-color: #D3D3D3;
+
+}
+.content    {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 80%;
+    margin: auto;
+
+}
+.card__1, .card__2, .card__3, .card__4, .card__5, .card__6, .card__7, .card__8, .card__9, .card__10    {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+
+}
+.price-text {
+    font-size: medium;
+    color: crimson;
+}
+.imageWrapper {
+  width: 256px;
+  height: 206px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-img-top {
+  max-width: 100%;
+  width: auto;
+  max-height: 100%;
+  height: auto;
+  margin: auto;
+}
+
+
+
+
+@media screen and (max-width: 1920px) { div.contentblock {width: 1200px;} }
+@media screen and (max-width: 1600px) { div.contentblock {width: 1024px;} }
+@media screen and (max-width: 1440px) { div.contentblock {width: 970px;} }
+@media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} }
+@media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} }
+@media screen and (max-width: 992px) { div.contentblock {width: 970px;} }
